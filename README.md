@@ -2,11 +2,11 @@
 
 ## 📊 Introduction
 
-This project analyzes e-commerce sales data to understand overall sales
+This project aims to give a descriptive analysis on e-commerce sales data to understand overall sales
 performance, product performance, revenue trends, returns, cancellations,
 and geographical performance.
 
-The dataset contains 100,000 synthetic Amazon e-commerce orders from 2020–2024.
+The dataset contains 100,000 synthetic Amazon style e-commerce orders from 2020–2024.
 
 I created an interactive Excel dashboard to provide a descriptive overview
 of the business and allow users to analyze performance by year.
@@ -70,7 +70,7 @@ The dashboard contains five primary KPIs:
 - **Return Rate**
 - **Cancellation Rate**
 
-These metrics provide a high-level overview of the sales performance of Amazon.
+These metrics provide a high-level overview of the sales performance of the business.
 
 ### Why These KPIs?
 
@@ -87,7 +87,7 @@ potential areas of revenue leakage.
 
 ### Revenue by Product Category
 
-![Revenue by Product Category](https://github.com/user-attachments/assets/981fe2e1-5661-45e8-bedd-6c272e44a4d0)
+![Revenue by Product Category](https://github.com/user-attachments/assets/d6670eb6-fafc-4334-a9be-40185151c794)
 
 **Insights:**
 - Electronics generated the highest revenue at approximately $14.0M.
@@ -99,7 +99,7 @@ potential areas of revenue leakage.
 ![Top 10 Products by Revenue](https://github.com/user-attachments/assets/71167740-94d4-47c4-a22f-d63aea852557)
 
 **Insights:**
-- This shows that the LED Desk Lamp was the highest revenue-generating product at approximately $1.74M.
+- This shows that the LED Desk Lamp was the highest revenue generating product at approximately $1.74M.
 - The Top 10 includes products from different categories, suggesting that high revenue is not concentrated around one type of product.
 
 ### Top 10 Products Contributing to Revenue Loss
