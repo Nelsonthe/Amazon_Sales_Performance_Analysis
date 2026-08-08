@@ -122,8 +122,9 @@ potential areas of revenue leakage.
 
 ![Revenue by Country](https://github.com/user-attachments/assets/3054770f-bc2a-40f6-8e69-89d144af39bf)
 
-**Insight:**
+**Insights:**
 - The United States generated the highest revenue compared to the other countries.
+- Revenue was heavily concentrated in the United States, while Canada, India, and Australia contributed considerably smaller shares.
 ---
 
 # 🎛️ Dashboard Interactivity
@@ -160,7 +161,6 @@ DISTINCTCOUNT(Amazon[OrderID])
 	SUM('Amazon Table'[TotalAmount]),
 	'Amazon Table'[OrderStatus] IN {"Returned","Cancelled"}
 	)
-)
 ```
 
 ### Revenue Gained by Products
