@@ -13,7 +13,7 @@ of the business and allow users to analyze performance by year.
 
 ### Dashboard
 
-![Dashboard 2](https://github.com/user-attachments/assets/0b8d4d6e-05cb-44dd-8197-2981cc71f009)
+![Dashboard](https://github.com/user-attachments/assets/0b8d4d6e-05cb-44dd-8197-2981cc71f009)
 
 ---
 
@@ -45,7 +45,7 @@ the following questions:
 
 ## 🛠️ Excel Skills Used
 
-The following Excel skills were utilized for analysis:
+I utilized the following Excel skills for the analysis:
 
 - 📊 **Pivot Tables**
 - 📈 **Pivot Charts**
@@ -72,13 +72,12 @@ The dashboard contains five primary KPIs:
 - **Return Rate**
 - **Cancellation Rate**
 
-These metrics provide a high-level overview of the performance of the
-e-commerce business.
+These metrics provide a high-level overview of the sales performance of Amazon.
 
 ### Why These KPIs?
 
 I selected these KPIs because they show both the positive and negative
-sides of sales performance.
+sides of the sales performance.
 
 While **Total Revenue** and **Total Orders** measure overall sales activity,
 **Revenue Lost**, **Return Rate**, and **Cancellation Rate** highlight
