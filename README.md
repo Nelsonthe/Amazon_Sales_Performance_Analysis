@@ -60,9 +60,7 @@ I utilized the following Excel skills for the analysis:
 
 ---
 
-# 📊 Dashboard Analysis
-
-## 1. Key Performance Indicators
+## Key Performance Indicators
 
 The dashboard contains five primary KPIs:
 
@@ -85,97 +83,47 @@ potential areas of revenue leakage.
 
 ---
 
-## 2. Revenue by Product Category
+## 🔍 Analysis
 
-![Revenue by Product Category](https://github.com/user-attachments/assets/83fefe5d-9a1d-4a4e-b49a-80fdc67ec17c)
+### Revenue by Product Category
 
-### Insights
+![Revenue by Product Category]([Revenue_by_Category.png](https://github.com/user-attachments/assets/981fe2e1-5661-45e8-bedd-6c272e44a4d0))
 
-This analysis compares revenue generated across the different product
-categories.
+**Insights:**
+- **Electronics** generated the highest revenue at approximately **$14.0M**.
+- Revenue across the other categories was relatively close, indicating that sales were fairly evenly distributed across product categories.
 
-It helps identify:
+### Top 10 Products by Revenue
 
-- The highest revenue-generating categories
-- The lowest revenue-generating categories
-- How evenly revenue is distributed across categories
+![Top 10 Products by Revenue](Top_10_Products.png)
 
-One important observation is that category revenues are relatively close,
-suggesting that revenue is not heavily dependent on a single product
-category.
+**Insights:**
+- Identifies the products that contributed the most revenue.
+- Highlights the strongest individual product performers.
 
----
+### Bottom 10 Products by Revenue
 
-## 3. Top 10 Products by Revenue
+![Bottom 10 Products by Revenue](Bottom_10_Products.png)
 
-![Top 10 Products](assets/top_10_products.png)
+**Insights:**
+- Identifies the lowest revenue-generating products.
+- These products may require further investigation to understand their lower performance.
 
-### Insights
+### Revenue by Month
 
-This chart identifies the ten products generating the highest revenue.
+![Revenue by Month](Revenue_by_Month.png)
 
-Analyzing individual products alongside product categories provides a
-more detailed understanding of which specific products contribute most
-to sales.
+**Insights:**
+- Revenue fluctuated throughout the year.
+- The analysis highlights the strongest and weakest sales months.
 
-This information could help the business identify products that deserve
-greater inventory or marketing attention.
+### Revenue by Country
 
----
+![Revenue by Country](Revenue_by_Country.png)
 
-## 4. Bottom 10 Products by Revenue
-
-![Bottom 10 Products](assets/bottom_10_products.png)
-
-### Insights
-
-This analysis identifies products generating the lowest revenue.
-
-These products may require further investigation to determine whether
-their performance is related to:
-
-- Low customer demand
-- Pricing
-- Product positioning
-- Limited marketing
-- Inventory availability
-
-Since this project focuses on **descriptive analysis**, the dashboard
-identifies the underperforming products but does not establish the cause
-of their performance.
-
----
-
-## 5. Revenue by Month
-
-![Revenue by Month](assets/revenue_by_month.png)
-
-### Insights
-
-The monthly revenue analysis shows how sales performance changes
-throughout the year.
-
-This makes it possible to identify:
-
-- Strong revenue months
-- Weak revenue months
-- Potential seasonal patterns
-- Changes in sales performance over time
-
----
-
-## 6. Revenue by Country
-
-![Revenue by Country](assets/revenue_by_country.png)
-
-### Insights
-
-The geographical analysis shows how revenue is distributed across the
-countries represented in the dataset.
-
-This provides a quick overview of the business's strongest and weakest
-markets by revenue.
-
+**Insights:**
+- Shows how revenue was distributed geographically.
+- Highlights the markets contributing the most revenue.
 ---
 
 # 🎛️ Dashboard Interactivity
