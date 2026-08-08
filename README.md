@@ -87,7 +87,7 @@ potential areas of revenue leakage.
 
 ### Revenue by Product Category
 
-![Revenue by Product Category]([Revenue_by_Category.png](https://github.com/user-attachments/assets/981fe2e1-5661-45e8-bedd-6c272e44a4d0))
+![Revenue by Product Category](https://github.com/user-attachments/assets/981fe2e1-5661-45e8-bedd-6c272e44a4d0)
 
 **Insights:**
 - **Electronics** generated the highest revenue at approximately **$14.0M**.
@@ -95,7 +95,7 @@ potential areas of revenue leakage.
 
 ### Top 10 Products by Revenue
 
-![Top 10 Products by Revenue](Top_10_Products.png)
+![Top 10 Products by Revenue](https://github.com/user-attachments/assets/2490a966-e428-4f9d-91d1-668307a80c00)
 
 **Insights:**
 - Identifies the products that contributed the most revenue.
