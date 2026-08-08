@@ -87,7 +87,7 @@ potential areas of revenue leakage.
 
 ## 2. Revenue by Product Category
 
-![Revenue by Product Category](assets/revenue_by_category.png)
+![Revenue by Product Category](https://github.com/user-attachments/assets/83fefe5d-9a1d-4a4e-b49a-80fdc67ec17c)
 
 ### Insights
 
