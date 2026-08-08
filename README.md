@@ -107,29 +107,28 @@ potential areas of revenue leakage.
 ![Bottom 10 Products by Revenue](https://github.com/user-attachments/assets/925d3c7c-3f0e-4818-8beb-b29bf1e8eb71)
 
 **Insights:**
-- Identifies the lowest revenue-generating products.
-- These products may require further investigation to understand their lower performance.
+- Gaming Mouse recorded the highest revenue lost from returned and cancelled orders at approximately $148K.
+- Most of the products recorded between $126K and $133K in lost revenue.
 
 ### Revenue by Month
 
-![Revenue by Month](Revenue_by_Month.png)
+![Revenue by Month](https://github.com/user-attachments/assets/c04e0e32-eab1-4589-ad81-a01ce0a12ce8)
 
 **Insights:**
-- Revenue fluctuated throughout the year.
-- The analysis highlights the strongest and weakest sales months.
+- January generated the highest monthly revenue at approximately $7.1M.
+- Apart from the February decline, revenue remained relatively stable throughout the years, generally ranging between $6.7M and $7.1M.
 
 ### Revenue by Country
 
-![Revenue by Country](Revenue_by_Country.png)
+![Revenue by Country](https://github.com/user-attachments/assets/3054770f-bc2a-40f6-8e69-89d144af39bf)
 
-**Insights:**
-- Shows how revenue was distributed geographically.
-- Highlights the markets contributing the most revenue.
+**Insight:**
+- The United States generated the highest revenue compared to the other countries.
 ---
 
 # 🎛️ Dashboard Interactivity
 
-A **Year slicer** was added to allow users to filter the entire dashboard
+A Year slicer was added to allow the user to filter the entire dashboard
 between:
 
 - 2020
@@ -154,39 +153,23 @@ Total Orders =
 DISTINCTCOUNT(Amazon[OrderID])
 ```
 
-### Total Revenue
+### Revenue Losses by Products
 
 ```DAX
-Total Revenue =
-CALCULATE(
-    SUM(Amazon[TotalAmount]),
-    Amazon[OrderStatus] = "Delivered"
+=CALCULATE(
+	SUM('Amazon Table'[TotalAmount]),
+	'Amazon Table'[OrderStatus] IN {"Returned","Cancelled"}
+	)
 )
 ```
 
-> Replace this formula with your exact DAX measure if your revenue
-> definition includes other order statuses.
-
-### Return Rate
+### Revenue Gained by Products
 
 ```DAX
-Return Rate =
-DIVIDE(
-    [Returned Orders],
-    [Total Orders],
-    0
-)
-```
-
-### Cancellation Rate
-
-```DAX
-Cancellation Rate =
-DIVIDE(
-    [Cancelled Orders],
-    [Total Orders],
-    0
-)
+=CALCULATE(
+ 	SUM('Amazon Table'[TotalAmount]),
+ 	'Amazon Table'[OrderStatus] IN { "Shipped" ,"Delivered"}
+ 	)
 ```
 
 ---
@@ -205,15 +188,13 @@ I gained practical experience in:
 - Using slicers to dynamically filter reports
 - Selecting appropriate visualizations for different business questions
 - Presenting analytical results in a clear and concise format
-- Distinguishing between descriptive findings and assumptions about
-  why those results occurred
 
 ---
 
 # 💡 Conclusion
 
-The E-Commerce Sales Performance Dashboard provides a descriptive
-overview of sales performance between **2020 and 2024**.
+The Amazon Sales Performance Dashboard provides a descriptive
+overview of sales performance between 2020 and 2024.
 
 The analysis examines revenue, order volume, product performance,
 geographical performance, monthly trends, returns, cancellations,
@@ -222,6 +203,6 @@ and revenue losses.
 The interactive dashboard allows users to explore these metrics by year
 and quickly identify patterns in the business's historical performance.
 
-This project demonstrates how **Microsoft Excel can be used to transform
+This project demonstrates how Microsoft Excel can be used to transform
 large transactional datasets into an interactive business intelligence
-dashboard.**
+dashboard.
