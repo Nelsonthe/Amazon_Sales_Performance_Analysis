@@ -21,7 +21,7 @@ of the business and allow users to analyze performance by year.
 
 My final dashboard can be found here:
 
-[Download the Excel Dashboard](Project1dashboard)
+[Download the Excel Dashboard](Project%201%20dashboard/Amazon%20Sales%20Analysis%20Dashboard.xlsx)
 
 ---
 
