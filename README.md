@@ -150,8 +150,7 @@ Three essential measures were created to support the analysis.
 ### Total Orders
 
 ```DAX
-Total Orders =
-DISTINCTCOUNT(Amazon[OrderID])
+=DISTINCTCOUNT(Amazon[OrderID])
 ```
 
 ### Revenue Losses by Products
