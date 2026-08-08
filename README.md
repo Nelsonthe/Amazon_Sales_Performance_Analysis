@@ -116,7 +116,7 @@ potential areas of revenue leakage.
 
 **Insights:**
 - January generated the highest monthly revenue at approximately $7.1M.
-- Apart from the February decline, revenue remained relatively stable throughout the years, generally ranging between $6.7M and $7.1M.
+- Apart from the February decline, revenue remained relatively stable throughout the months of the different years, generally ranging between $6.7M and $7.1M.
 
 ### Revenue by Country
 
