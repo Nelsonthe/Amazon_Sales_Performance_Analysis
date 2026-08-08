@@ -6,7 +6,7 @@ This project analyzes e-commerce sales data to understand overall sales
 performance, product performance, revenue trends, returns, cancellations,
 and geographical performance.
 
-The dataset contains **100,000 synthetic Amazon e-commerce orders from 2020–2024**.
+The dataset contains 100,000 synthetic Amazon e-commerce orders from 2020–2024.
 
 I created an interactive Excel dashboard to provide a descriptive overview
 of the business and allow users to analyze performance by year.
@@ -77,8 +77,8 @@ These metrics provide a high-level overview of the sales performance of Amazon.
 I selected these KPIs because they show both the positive and negative
 sides of the sales performance.
 
-While **Total Revenue** and **Total Orders** measure overall sales activity,
-**Revenue Lost**, **Return Rate**, and **Cancellation Rate** highlight
+While Total Revenue and Total Orders measure overall sales activity,
+Revenue Lost, Return Rate, and Cancellation Rate highlight
 potential areas of revenue leakage.
 
 ---
@@ -90,20 +90,21 @@ potential areas of revenue leakage.
 ![Revenue by Product Category](https://github.com/user-attachments/assets/981fe2e1-5661-45e8-bedd-6c272e44a4d0)
 
 **Insights:**
-- **Electronics** generated the highest revenue at approximately **$14.0M**.
-- Revenue across the other categories was relatively close, indicating that sales were fairly evenly distributed across product categories.
+- Electronics generated the highest revenue at approximately $14.0M.
+- Revenue across the other categories was relatively close,
+  indicating that sales were fairly evenly distributed across product categories.
 
 ### Top 10 Products by Revenue
 
-![Top 10 Products by Revenue](https://github.com/user-attachments/assets/2490a966-e428-4f9d-91d1-668307a80c00)
+![Top 10 Products by Revenue](https://github.com/user-attachments/assets/71167740-94d4-47c4-a22f-d63aea852557)
 
 **Insights:**
-- Identifies the products that contributed the most revenue.
-- Highlights the strongest individual product performers.
+- This shows that the LED Desk Lamp was the highest revenue-generating product at approximately $1.74M.
+- The Top 10 includes products from different categories, suggesting that high revenue is not concentrated around one type of product.
 
-### Bottom 10 Products by Revenue
+### Top 10 Products Contributing to Revenue Loss
 
-![Bottom 10 Products by Revenue](Bottom_10_Products.png)
+![Bottom 10 Products by Revenue](https://github.com/user-attachments/assets/925d3c7c-3f0e-4818-8beb-b29bf1e8eb71)
 
 **Insights:**
 - Identifies the lowest revenue-generating products.
