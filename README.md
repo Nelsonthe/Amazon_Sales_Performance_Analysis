@@ -144,7 +144,7 @@ allowing sales performance to be compared across different periods.
 
 # 🧮 Key Calculations
 
-Several measures were created to support the analysis.
+Three essential measures were created to support the analysis.
 
 ### Total Orders
 
