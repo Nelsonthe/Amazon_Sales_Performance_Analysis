@@ -1,5 +1,3 @@
-# Amazon Sales Performance Dashboard
-
 ## 📊 Introduction
 
 This project aims to give a descriptive analysis on e-commerce sales data to understand overall sales
@@ -22,6 +20,16 @@ of the business and allow users to analyze performance by year.
 My final dashboard can be found here:
 
 [Download the Excel Dashboard](Amazon%20Sales%20Analysis%20Dashboard.xlsx)
+
+---
+
+## 📋 Dataset
+
+The dataset can be found here:
+
+[Download the dataset](https://www.kaggle.com/datasets/rohiteng/amazon-sales-dataset/data)
+
+![Dataset](https://github.com/user-attachments/assets/d771ff13-817f-45c1-b32a-85921b2ef244)
 
 ---
 
