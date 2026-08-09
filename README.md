@@ -154,7 +154,7 @@ allowing sales performance to be compared across different periods.
 # 🧮 Key Calculations
 
 Three key DAX measures were created to support the analysis, 
-alongside Excel formulas used for additional KPI calculations.
+alongside Excel formulas for the additional KPI calculations.
 
 ### Total Orders
 
