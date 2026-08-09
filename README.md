@@ -37,7 +37,7 @@ the following questions:
 5. What percentage of orders were cancelled?
 6. Which product categories generated the most revenue?
 7. Which individual products generated the most revenue?
-8. Which products contributed the most to revenue loss??
+8. Which products contributed the most to revenue loss?
 9. How did revenue change throughout the year?
 10. Which countries generated the most revenue?
 
