@@ -11,7 +11,7 @@ of the business and allow users to analyze performance by year.
 
 ### Dashboard
 
-![Dashboard](https://github.com/user-attachments/assets/16490919-047b-41b8-865b-fe07dbe2f3e0)
+![Dashboard](https://github.com/user-attachments/assets/2e1f36a6-a6a0-4d69-bc1a-8c96994ba484)
 
 ---
 
